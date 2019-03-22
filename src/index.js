@@ -92,17 +92,4 @@ function isBoxOk(grid, row, col, num) {
 
     return true;
 }
-
-function printGrid(grid) {
-    var res = "";
-
-    for (var i = 0; i < 9; i++) {
-        for (var j = 0; j < 9; j++) {
-            res += grid[i][j];
-        }
-        res += "\n";
-    }
-    console.log(res);
-}
-  
   
